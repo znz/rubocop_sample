@@ -397,7 +397,7 @@
               ^
     ```
 
-- `FavorSprintf` - `String#%`を利用しない、`sprinf`を利用する
+- `FavorSprintf` - `String#%`を利用しない、`sprintf`を利用する
 
     ```ruby
     source_code_layout/bad/favor_sprintf.rb:3:12: C: Favor sprintf over String#%.
@@ -717,9 +717,9 @@
         ^^^^
     ```
 
-- `CollectionMethos` - `map`/`reduce`/`find`/`select`を利用する（好む）
+- `CollectionMethods` - `map`/`reduce`/`find`/`select`を利用する（好む）
 
-    - PreferrredMethodsを指定しないとだめ
+    - PreferredMethodsを指定しないとだめ
 
     ```ruby
     source_code_layout/bad/collection_methods.rb:2:3: C: Prefer map over collect.
@@ -778,7 +778,7 @@
     ^^^^^^^^^^^^^^^^
     ```
 
-- `AssignmentInCondition` - `if`/`while`/`until`での条件句hkに`=`を利用しない
+- `AssignmentInCondition` - `if`/`while`/`until`での条件句に`=`を利用しない
 
     ```ruby
     source_code_layout/bad/assignment_in_condition.rb:3:6: W: Assignment in condition - you probably meant to use ==.
